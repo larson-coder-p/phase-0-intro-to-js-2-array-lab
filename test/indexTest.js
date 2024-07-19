@@ -1,5 +1,18 @@
 require ( './helpers.js' );
+const {
+  cats,
+  destructivelyAppendCat,
+  destructivelyPrependCat,
+  destructivelyRemoveLastCat,
+  destructivelyRemoveFirstCat,
+  appendCat,
+  prependCat,
+  removeLastCat,
+  removeFirstCat,
+} = require('../index');
 
+const chai = require('chai');
+const expect = chai.expect;
 describe('index.js', function () {
   describe('cats', function () {
     it('is assigned an initial value of ["Milo", "Otis", "Garfield"]', function () {

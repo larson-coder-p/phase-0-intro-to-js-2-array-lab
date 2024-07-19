@@ -1,0 +1,50 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2024-07-19T08:58:33.477Z",
+    "end": "2024-07-19T08:58:33.764Z",
+    "duration": 287
+  },
+  "tests": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to be an array",
+        "showDiff": false,
+        "stack": "AssertionError: expected undefined to be an array\n    at Context.<anonymous> (test/indexTest.js:19:36)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to be an array",
+        "showDiff": false,
+        "stack": "AssertionError: expected undefined to be an array\n    at Context.<anonymous> (test/indexTest.js:19:36)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "\"before each\" hook for \"appends a cat to the end of the cats array\"",
+      "fullTitle": "index.js Array functions \"before each\" hook for \"appends a cat to the end of the cats array\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot set properties of undefined (setting 'length')\n    at Context.<anonymous> (test/indexTest.js:25:19)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "Cannot set properties of undefined (setting 'length')"
+      }
+    }
+  ],
+  "passes": []
+}
